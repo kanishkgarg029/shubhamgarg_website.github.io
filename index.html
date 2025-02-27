@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - My Professional Website</title>
+  <!-- Elegant font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles & Flex layout for sticky footer */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #2C2C2C; /* Sandy black background */
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Header styling - now off white/light grey */
+    header {
+      background: #f0f0f0; /* Off white/light grey */
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img {
+      width: 200px;
+      height: auto;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      font-weight: bold;
+      color: #333;
+    }
+    /* Main container styling */
+    .container {
+      flex: 1;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+      background-color: #2C2C2C;
+    }
+    /* (Additional styles for your sections can remain the same) */
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <!-- Update the image path to point to the images folder -->
+        <img src="images/Icon.png" alt="Home Icon">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <!-- Update the navigation links to point to the correct folder -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/About.html">About Me</a></li>
+        <li><a href="pages/Blogs.html">Blogs</a></li>
+        <li><a href="pages/Contact%20me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <!-- Your homepage content goes here -->
+    <h1>Welcome to My Professional Website</h1>
+    <p>This is where you'll showcase your story, achievements, and more.</p>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Shubham Garg. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
